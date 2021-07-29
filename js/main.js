@@ -20,7 +20,8 @@ window.onload=()=>{
 
 
 const comprobacion=(elemento1,elemento2,elemento3)=>{
-
+    elemento1= elemento1.trim();
+    elemento3= elemento3.trim();
 
     if(elemento1 < 0 || elemento1 > 25 || isNaN(elemento1)) {
           alert('numero proporcionado no es válido')
